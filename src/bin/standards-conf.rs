@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use libc;
 use std::env;
 use std::ffi;
