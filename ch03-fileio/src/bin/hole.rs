@@ -1,4 +1,4 @@
-use apue_rs::FILE_MODE;
+use common::FILE_MODE;
 use libc;
 use std::ffi::{c_void, CString};
 

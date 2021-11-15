@@ -1,11 +1,8 @@
-[package]
-name = "apue-rs"
-version = "0.1.0"
-edition = "2018"
+[workspace]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-nix = "0.23"
-libc = "0.2"
-libc-stdhandle = "0.1"
+members = [
+"common",
+"ch01-intro",
+"ch03-fileio",
+"ch04-filedir",
+]
